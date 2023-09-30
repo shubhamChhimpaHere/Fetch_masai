@@ -1,0 +1,48 @@
+.root {
+    margin: auto;
+    max-width: 800px;
+    padding: 10px;
+    /* border: 1px solid black; */
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    font-size: 20px;
+}
+
+:root {
+    --first: rgba(0, 0, 255, 0.678);
+}
+
+.root > button {
+    padding: 10px 30px;
+    border: none;
+    background-color: var(--first);
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+   
+}
+
+
+
+table td, th {
+    padding: 10px;
+}
+
+table > tbody > tr:nth-child(odd) {
+    background-color: #eeeeee3e;
+}
+
+table > tbody > tr:hover {
+    background-color: #dddddd50;
+}
