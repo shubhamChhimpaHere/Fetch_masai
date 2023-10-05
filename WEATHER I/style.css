@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.headerContent {
+    padding: 30px 100px;
+    background-color: #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.headerContent >.left {
+    display: flex;
+    justify-content: center;
+}
+.headerContent * {
+    font-size: 20px;
+}
+.headerContent > .left > input {
+    background-color: #fff;
+    color: #333;
+    width: 400px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 10px;
+    outline: none;
+}
+
+.headerContent > .left > button {
+    background-color: #333;
+    color: #fff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.headerContent > .right > a {
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+
+#main {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+
+#main > .left > div {
+    margin-bottom: 20px;
+}
+
+#main > .left > div:nth-child(2) > h1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+#main > .left > div:last-child {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    font-size: 18px;
+    border-left: 3px solid rgba(255, 0, 0, 0.422);
+    padding: 0 10px;
+}
